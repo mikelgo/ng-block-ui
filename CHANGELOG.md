@@ -174,6 +174,182 @@
 * **all:**  fix BlockUIModule imports ([c8aad241](https://github.com/kuuurt13/ng-block-ui/commit/c8aad24135525589124af97f5cd4f5653845a3c4))
 * **tests:**  Added blockUI directive tests ([d7a3f79e](https://github.com/kuuurt13/ng-block-ui/commit/d7a3f79e6220363bdd1284e081031d3ad113fc12))
 
+#### 3.0.3 (2022-11-19)
+
+##### Build System / Dependencies
+
+* **deps:**  bump underscore.string from 3.3.4 to 3.3.5 ([d5c16d11](https://github.com/kuuurt13/ng-block-ui/commit/d5c16d11ab6e70f156f3d7ec1b41f4a6dd1f9a22))
+* **scripts:**  Updated ng-packagr to 4.7.1 ([ee14a9d3](https://github.com/kuuurt13/ng-block-ui/commit/ee14a9d3e84ebcb1f7172bb7e08a7d7d96bd87a2))
+
+##### Chores
+
+* **Deps:**
+  *  Update typescript ([594eae6a](https://github.com/kuuurt13/ng-block-ui/commit/594eae6a2598e052d5f7be1ddeb4764224c58e70))
+  *  Updated deps for dev app  & examples ([3f7a662c](https://github.com/kuuurt13/ng-block-ui/commit/3f7a662c97c199f2a43eebe75a4119f79ca308a6))
+* **deps:**
+  *  Updated testing deps ([7c5f9bce](https://github.com/kuuurt13/ng-block-ui/commit/7c5f9bce89cf84668f73229de9766f4a057d70e5))
+  *  Update ng-packagr ([a488da43](https://github.com/kuuurt13/ng-block-ui/commit/a488da439411d9b3c2d49475e01d334f4b32321f))
+* **Docs:**  Updated example dependencies ([ef2c0b8b](https://github.com/kuuurt13/ng-block-ui/commit/ef2c0b8b28fc0dc6b5748f468b2b6c5b5b04cd2a))
+* **docs:**  Updated blockAllRequestsInProgress docs ([854cbb43](https://github.com/kuuurt13/ng-block-ui/commit/854cbb43e0f39b19e5cdaa8ad2da5ce7e3513d91))
+* **Development:**
+  *  Added new test scenario ([2ec60de5](https://github.com/kuuurt13/ng-block-ui/commit/2ec60de568ad1f284cdfc594de9dd44f05faf040))
+  *  Clean up development app ([59333099](https://github.com/kuuurt13/ng-block-ui/commit/593330997cf67860d161afb52a52f81888666ab8))
+* **core:**  upgrade to support Angular 6 & rxjs 6 ([4274c258](https://github.com/kuuurt13/ng-block-ui/commit/4274c25845a809b35feeedc17cd2e5b30a606cc5))
+* **build:**  Added npm publish scripts ([429514e7](https://github.com/kuuurt13/ng-block-ui/commit/429514e75dfffd1b4ae9bce2df4a5cdb44f33203))
+
+##### Continuous Integration
+
+* **config:**  Fixed Travis CI config ([1bf3986e](https://github.com/kuuurt13/ng-block-ui/commit/1bf3986e161fbc5e1c8c2fdbaa51ad20c50fc766))
+
+##### Documentation Changes
+
+* **examples:**
+  *  Set version to "latest" ([84240b03](https://github.com/kuuurt13/ng-block-ui/commit/84240b038801bba4a2144489640d26b8af5309aa))
+  *  include code examples within the repo ([#62](https://github.com/kuuurt13/ng-block-ui/pull/62)) ([eb4aff12](https://github.com/kuuurt13/ng-block-ui/commit/eb4aff129ee3a2cdca9ae2a1b7500032e43c1443))
+  *  Add more plunker examples ([15f6d0f3](https://github.com/kuuurt13/ng-block-ui/commit/15f6d0f38a4e82d03d8b77a9f13d74820e780141))
+* **modules:**  Fixed grammar ([#91](https://github.com/kuuurt13/ng-block-ui/pull/91)) ([d4c90aa1](https://github.com/kuuurt13/ng-block-ui/commit/d4c90aa19c72b116fe7f5a39fe0f29295595fa96))
+* **http:**
+  *  Fixed grammar ([#90](https://github.com/kuuurt13/ng-block-ui/pull/90)) ([124863a2](https://github.com/kuuurt13/ng-block-ui/commit/124863a21771f3cd95307ff81993c21cdeae5bec))
+  *  Fix parameter ordering in README ([#89](https://github.com/kuuurt13/ng-block-ui/pull/89)) ([118fdba9](https://github.com/kuuurt13/ng-block-ui/commit/118fdba9ab2c8420bc8b856cd3b074645f33947e))
+  *  Fixed module settings syntax error ([aea5a9c8](https://github.com/kuuurt13/ng-block-ui/commit/aea5a9c8e9efface6c94fdcc1d702b0354e809cf))
+  *  block ui http module ([#38](https://github.com/kuuurt13/ng-block-ui/pull/38)) ([b1439a67](https://github.com/kuuurt13/ng-block-ui/commit/b1439a671a13d03dcbe72fa58f8ccc69ea632464))
+* **migration:**
+  *  Added 2.0.0 migration guide ([3f939ca0](https://github.com/kuuurt13/ng-block-ui/commit/3f939ca0a5a3978524f4975651e4e09d4b7277da))
+  *  Added 1.0.0 migration guide ([#41](https://github.com/kuuurt13/ng-block-ui/pull/41)) ([fe3aa593](https://github.com/kuuurt13/ng-block-ui/commit/fe3aa593a3ac99a47f6c82f22dcf3948acab4682))
+* **readme:**
+  *  move examples to stackblitz ([#62](https://github.com/kuuurt13/ng-block-ui/pull/62)) ([f928e8ae](https://github.com/kuuurt13/ng-block-ui/commit/f928e8ae92a9b5e615291fb16d30e3eaa3291c66))
+  *  Added isActive documentation ([#40](https://github.com/kuuurt13/ng-block-ui/pull/40)) ([d6c36563](https://github.com/kuuurt13/ng-block-ui/commit/d6c365633563e0ceddd480c631b80fc7629c8534))
+  *  fixed table layouts ([6d95f81d](https://github.com/kuuurt13/ng-block-ui/commit/6d95f81da6df909a84d17210957d6b5b05908e7a))
+* **router:**  block ui route guard ([#39](https://github.com/kuuurt13/ng-block-ui/pull/39)) ([faf9a7aa](https://github.com/kuuurt13/ng-block-ui/commit/faf9a7aa85d0233b44e046108ae778139fc7f873))
+* **all:**  1.0.0 updates and improvements ([#41](https://github.com/kuuurt13/ng-block-ui/pull/41)) ([11a16940](https://github.com/kuuurt13/ng-block-ui/commit/11a16940c5fc5a289a952e78260fd28fa5b018fc))
+* **contrib:**  Add contributing guidelines ([#41](https://github.com/kuuurt13/ng-block-ui/pull/41)) ([f2b6bb2f](https://github.com/kuuurt13/ng-block-ui/commit/f2b6bb2fc7378a142587ca4518e9911fe9fa6704))
+* **clarification:**  Clarify that NgBlockUI's reset() method does not take into account `delayStop` option ([#46](https://github.com/kuuurt13/ng-block-ui/pull/46)) ([de64c130](https://github.com/kuuurt13/ng-block-ui/commit/de64c130612f1d48e7496bb077431f6f8893aedc))
+* **npm:**  Added npm monthly downloads badge ([d9d4b353](https://github.com/kuuurt13/ng-block-ui/commit/d9d4b35386fcb88a2ddff9cbda172fb88a6d4a8c))
+* **BlockUIService:**  Fix methods table ([d0c3db75](https://github.com/kuuurt13/ng-block-ui/commit/d0c3db7522b91706f5799adb9c4ed613878b740c))
+
+##### New Features
+
+* **Decorator:**  Added "scopeToInstance" setting ([dc6b6a80](https://github.com/kuuurt13/ng-block-ui/commit/dc6b6a80852047711a48c597b3e7ffdf8375d1df))
+* **BlockUIService:**  Added update method ([c8b03884](https://github.com/kuuurt13/ng-block-ui/commit/c8b03884ce918d2c5c3d7211869f82b3b420507e))
+* **interceptor:**  Add a new settings option "blockAllRequestsInProgress" to keep blockUI until all requests are resolved ([dc1b482d](https://github.com/kuuurt13/ng-block-ui/commit/dc1b482da34e10843772325000e263f77153911b))
+* **core:**
+  *  queue multiple blocking calls ([#43](https://github.com/kuuurt13/ng-block-ui/pull/43)) ([c399aaad](https://github.com/kuuurt13/ng-block-ui/commit/c399aaadb668978c9b4d9c317c8b8847ac82dcba))
+  *  Added delay start/end settings - ([#24](https://github.com/kuuurt13/ng-block-ui/pull/24)) ([c27faee6](https://github.com/kuuurt13/ng-block-ui/commit/c27faee6a6cabab091f51d7a6dff78b8262e9eea))
+* **http:**  auto block on http requests ([#38](https://github.com/kuuurt13/ng-block-ui/pull/38)) ([aeb6bdf5](https://github.com/kuuurt13/ng-block-ui/commit/aeb6bdf557d86235461d6113a81cb7a3d55ec75c))
+* **router:**  prevent navigation when blocking ([#39](https://github.com/kuuurt13/ng-block-ui/pull/39)) ([ecc4b633](https://github.com/kuuurt13/ng-block-ui/commit/ecc4b6339673bd9827e4f3f05eafa2306c6be63e))
+* **blockUI:**  add isActive boolean to blockUI instance ([#40](https://github.com/kuuurt13/ng-block-ui/pull/40)) ([b3e228c1](https://github.com/kuuurt13/ng-block-ui/commit/b3e228c18fdd719d8237284a1d4598a062982a81))
+* **settings:**  settings can now be set globally at module level ([8a8ca41f](https://github.com/kuuurt13/ng-block-ui/commit/8a8ca41f8c320307c3d3e8f0b758cd1a19fdef3e))
+* **directive:**  Allow settings to be passed ([#27](https://github.com/kuuurt13/ng-block-ui/pull/27)) ([e61ae064](https://github.com/kuuurt13/ng-block-ui/commit/e61ae0647cb87318e911c46b2f029d6ab56c3039))
+* **component:**
+  *  Add support for custom templates ([#20](https://github.com/kuuurt13/ng-block-ui/pull/20)) ([fa86970f](https://github.com/kuuurt13/ng-block-ui/commit/fa86970f820998ca685b350523d42c8111dd949b))
+  *  Show spinner cursor when blocking ([752944ca](https://github.com/kuuurt13/ng-block-ui/commit/752944ca61804e762cdfeb4722f52ffb33427279))
+  *  Ability to set a default message ([#10](https://github.com/kuuurt13/ng-block-ui/pull/10)) ([1ac8cf86](https://github.com/kuuurt13/ng-block-ui/commit/1ac8cf86f7c4f15bf2245bd54e4c4d95949e1798))
+  *  Added block-ui component ([#4](https://github.com/kuuurt13/ng-block-ui/pull/4)) ([3363c079](https://github.com/kuuurt13/ng-block-ui/commit/3363c079fc8f6d2546d2ae52b864d03bbbf7af0e))
+* **service:**  Introduce new BlockUIService ([#18](https://github.com/kuuurt13/ng-block-ui/pull/18)) ([364e5316](https://github.com/kuuurt13/ng-block-ui/commit/364e5316cb3b4fc7777e9d2dc5d4aa10c95c147f))
+* **decorator:**  Added NgBlockUI type ([#3](https://github.com/kuuurt13/ng-block-ui/pull/3)) ([68680baf](https://github.com/kuuurt13/ng-block-ui/commit/68680baf5459c0963a33be3a47e1fc38aeb216c0))
+* **lib:**  Added support for AOT compilation ([524d976e](https://github.com/kuuurt13/ng-block-ui/commit/524d976e24a9408e46a51e7f079a42def90afd89))
+
+##### Bug Fixes
+
+* **Module:**  Add module type to ModuleWithProviders ([f6a117ac](https://github.com/kuuurt13/ng-block-ui/commit/f6a117ac401bd3371ceb78a3004150a775a77bb2))
+* **Directive:**
+  *  Correctly find parent node ([9668a9f0](https://github.com/kuuurt13/ng-block-ui/commit/9668a9f0cc3f010048b7145e67a1b05a3a2620ea))
+  *  Stop blocking on destruction ([e994de01](https://github.com/kuuurt13/ng-block-ui/commit/e994de01d7ef4e61c0c0b05b44d1b71861cee854))
+  *  Fixed issue when finding "parentElement" for Ivy renderer ([75b13614](https://github.com/kuuurt13/ng-block-ui/commit/75b136149f1423c032950cb9df1c5f87251143ac))
+  *  Fixed default values in isComponentInTemplate method ([f56b5113](https://github.com/kuuurt13/ng-block-ui/commit/f56b5113b1a50bdf38bf9621144c910db52714c2))
+  *  Added ivy renderer support ([a8adc9d3](https://github.com/kuuurt13/ng-block-ui/commit/a8adc9d36f46d08e044713b3bad77c73a5cea0bd))
+* **http:**
+  *  Issue with passing default settings ([009ecf7c](https://github.com/kuuurt13/ng-block-ui/commit/009ecf7c86c52244e4732d0f73ef2f34ae08664d))
+  *  Set default settings in provider to fix AOT error ([deebf716](https://github.com/kuuurt13/ng-block-ui/commit/deebf71639bfebee01a7e9fb4aea1b43bea27f7d))
+  *  Restore "blockAllRequestsInProgress" setting ([#98](https://github.com/kuuurt13/ng-block-ui/pull/98)) ([dc24d8fc](https://github.com/kuuurt13/ng-block-ui/commit/dc24d8fc78c031e2164a2cbe285868bb3834766f))
+  *  interceptor now waits for full request duration [#57](https://github.com/kuuurt13/ng-block-ui/pull/57) ([8eaf83a7](https://github.com/kuuurt13/ng-block-ui/commit/8eaf83a7b67a4267db944c433f672f02a3f9bb36))
+  *  make module AOT compatible ([87d6682c](https://github.com/kuuurt13/ng-block-ui/commit/87d6682cddbf2eaf7383b1161b6c06409d140681))
+* **BlockUI:**
+  *  Don't clear previous timeout on stop ([a04d3e56](https://github.com/kuuurt13/ng-block-ui/commit/a04d3e56da2062ac67b3702e539ee756e25d2aee))
+  *  Reset should only targets given instance ([684be370](https://github.com/kuuurt13/ng-block-ui/commit/684be3708d740bc2f549152fb195fb16e383c139))
+* **BlockUIContent:**  Fully clean up on destroy ([5542a1c9](https://github.com/kuuurt13/ng-block-ui/commit/5542a1c9dbc80a64487a229cc9424b50b56d41b4))
+* **block-ui-content:**  Safely detect for changes ([#105](https://github.com/kuuurt13/ng-block-ui/pull/105)) ([b02c74ac](https://github.com/kuuurt13/ng-block-ui/commit/b02c74ace0f2014b9509f193f228d0951231ec52))
+* **core:**
+  *  Make Update method behave in a more synchronous way ([#103](https://github.com/kuuurt13/ng-block-ui/pull/103)) ([1e036e94](https://github.com/kuuurt13/ng-block-ui/commit/1e036e94dae462895996c49af39d1cac1b2d2773))
+  *   Fixed issue with blocking concurrency ([#96](https://github.com/kuuurt13/ng-block-ui/pull/96)) ([#97](https://github.com/kuuurt13/ng-block-ui/pull/97)) ([4820007c](https://github.com/kuuurt13/ng-block-ui/commit/4820007cd1c8a5aa8e8cdb46c55710c7544dc6f2))
+* **BlockUIContentComponent:**
+  *  Fixed type error ([9403d1af](https://github.com/kuuurt13/ng-block-ui/commit/9403d1af91853e75c24f7c50330e2cfcd32acd36))
+  *  updateInstanceBlockCount ([#92](https://github.com/kuuurt13/ng-block-ui/pull/92)) ([d5e29919](https://github.com/kuuurt13/ng-block-ui/commit/d5e29919e040b9eb002ea67c91b6f0653d1b2d11))
+* **build:**
+  *  change build to follow APF standards ([#79](https://github.com/kuuurt13/ng-block-ui/pull/79)) ([7daac638](https://github.com/kuuurt13/ng-block-ui/commit/7daac638ef795284eeefd48953ab8dbc9af7076a))
+  *  remove bundles from .npmignore ([e236dc15](https://github.com/kuuurt13/ng-block-ui/commit/e236dc156d5ce7cffeeaea52890a83e6a9619c23))
+  *  add missing umd bundle ([63e7119d](https://github.com/kuuurt13/ng-block-ui/commit/63e7119d88910960174c0a949405f0a27fac65c2))
+  *  flatten npm package structure ([68621f0a](https://github.com/kuuurt13/ng-block-ui/commit/68621f0aabc83da1d0db1e8535a19ea7bc3cfe0c))
+* **service:**  don't allow duplicate instances ([#74](https://github.com/kuuurt13/ng-block-ui/pull/74)) ([95903a33](https://github.com/kuuurt13/ng-block-ui/commit/95903a33828328fb8d05fa63740a3f251604bea1))
+* **component:**
+  *  fix blocking delays and multiple http calls ([#45](https://github.com/kuuurt13/ng-block-ui/pull/45)) ([2c344999](https://github.com/kuuurt13/ng-block-ui/commit/2c34499944c8a84c3b048acb5bd6a563d086ba22))
+  *  Check if blockUISubscription is defined before unsubscribing ([#52](https://github.com/kuuurt13/ng-block-ui/pull/52)) ([157281d3](https://github.com/kuuurt13/ng-block-ui/commit/157281d3d87d4ce088f48b1da13fef8420089496))
+  *  Set css to be fixed position by default ([66f77bc2](https://github.com/kuuurt13/ng-block-ui/commit/66f77bc22744534c49849b2f98c5b8cf3dbae9e4))
+* **module:**
+  *  make forRoot settings AOT compatible ([#53](https://github.com/kuuurt13/ng-block-ui/pull/53)) ([ed89c1ff](https://github.com/kuuurt13/ng-block-ui/commit/ed89c1ff0749f8a587e393fd206b3a9ab71502a8))
+  *  set settings to empty object by default ([847ff3da](https://github.com/kuuurt13/ng-block-ui/commit/847ff3da68b1d8e816a9d987e97d7c51bed2c02b))
+* **directive:**
+  *  use renderer to add class for Angular Universal ([#49](https://github.com/kuuurt13/ng-block-ui/pull/49)) ([#50](https://github.com/kuuurt13/ng-block-ui/pull/50)) ([9f163e14](https://github.com/kuuurt13/ng-block-ui/commit/9f163e14f5f5d7101bbcb6f1a6257dd24833ad3a))
+  *  fix delay start/stop ([#44](https://github.com/kuuurt13/ng-block-ui/pull/44)) ([e0283325](https://github.com/kuuurt13/ng-block-ui/commit/e02833250d65e8e37193ba1c993894d02b5ad65b))
+  *  Fix IE compatibility issue - ([#17](https://github.com/kuuurt13/ng-block-ui/pull/17)) ([96a33730](https://github.com/kuuurt13/ng-block-ui/commit/96a337304b37ec93efe791085020783d30255473))
+* **content:**  Explicitly detect changes when block event is dispatched ([#33](https://github.com/kuuurt13/ng-block-ui/pull/33)) ([6b2c77a9](https://github.com/kuuurt13/ng-block-ui/commit/6b2c77a9b9deefd5375486bb8cf33e895b0f37c0))
+* **compile:**  Compile with "noImplicitAny": true ([#22](https://github.com/kuuurt13/ng-block-ui/pull/22)) ([ee63798b](https://github.com/kuuurt13/ng-block-ui/commit/ee63798b463d9ae2ad7138c66c60790b06f7cc74))
+*  Active should be a property ([d5184987](https://github.com/kuuurt13/ng-block-ui/commit/d51849877d14c73bb33c7b769f26ff98a17f499e))
+* **lib:**  Switch module code generation to commonjs ([b0318e66](https://github.com/kuuurt13/ng-block-ui/commit/b0318e66716a5703fc79a1106ca0300c77e7517b))
+* **misc:**  Fixed README indent spaces ([0437f49d](https://github.com/kuuurt13/ng-block-ui/commit/0437f49d0eaeb9e61542cd2381ae43e05e97c351))
+
+##### Other Changes
+
+* **Http:**  Default "blockAllRequestsInProgress" to true ([531c1dab](https://github.com/kuuurt13/ng-block-ui/commit/531c1dabb8369b7569172dda5d1ad3461ea0356a))
+* **BlockUIContentComponent:**  Error ViewDestroyedError ([#102](https://github.com/kuuurt13/ng-block-ui/pull/102)) ([57bee6e8](https://github.com/kuuurt13/ng-block-ui/commit/57bee6e871590b191c08f929e5c774a7ccf959bc))
+* **changelog:**  add generate-changelog dependency ([82986999](https://github.com/kuuurt13/ng-block-ui/commit/82986999d424c8670decf23c4859a055715c3520))
+* **demo:**
+  *  fixed local development setup ([242e400f](https://github.com/kuuurt13/ng-block-ui/commit/242e400fe0866f421d671e4d9aa899d36af4b15f))
+  *  use systemjs to dynamically test load lib changes ([#41](https://github.com/kuuurt13/ng-block-ui/pull/41)) ([521acbfd](https://github.com/kuuurt13/ng-block-ui/commit/521acbfd80cf41f04a2ee3c5012a250a380314b3))
+* **scripts:**  Added prepublishOnly script ([6fef2241](https://github.com/kuuurt13/ng-block-ui/commit/6fef22419e209004ce1b3012d1d6f5dca54e82fb))
+* **component:**  Make message public for BlockUIContentComponent ([#51](https://github.com/kuuurt13/ng-block-ui/pull/51)) ([0da8dc10](https://github.com/kuuurt13/ng-block-ui/commit/0da8dc10341b5f5f1231460dbaccb8058ea3f940))
+* **all:**  Change message type to any ([#29](https://github.com/kuuurt13/ng-block-ui/pull/29)) ([35a66117](https://github.com/kuuurt13/ng-block-ui/commit/35a661171a4ea6e2073bc0ed3fd8271fbbe8b383))
+* **docs:**
+  *  Add NgBlockUI methods overview - [#12](https://github.com/kuuurt13/ng-block-ui/pull/12) ([f6ac137d](https://github.com/kuuurt13/ng-block-ui/commit/f6ac137dfcdc1bf57788aac9d2c83a08733f7f14))
+  *  Add component default message usage/example ([e51584d3](https://github.com/kuuurt13/ng-block-ui/commit/e51584d3fd06ff96460654afd36eedcecd8b7606))
+  *  Add directive usage to docs ([#12](https://github.com/kuuurt13/ng-block-ui/pull/12)) ([905fc406](https://github.com/kuuurt13/ng-block-ui/commit/905fc40616f844b1a825c96c7a253a0dc2367f40))
+  *  Configuring SystemJS  ([#14](https://github.com/kuuurt13/ng-block-ui/pull/14)) ([5bdaf99a](https://github.com/kuuurt13/ng-block-ui/commit/5bdaf99a58bc3a6b9a022e8a1d97af146e42b93f))
+  *  Add examples section with plunker link ([d4499c65](https://github.com/kuuurt13/ng-block-ui/commit/d4499c65c6754d2e3273411c8fd146cf1d0c91b8))
+  *  Add npm url to npm badge ([41fa9909](https://github.com/kuuurt13/ng-block-ui/commit/41fa9909367fb22e8b29f53c2fe464a67c3288ad))
+* **rxjs:**  Import methods to avoid importing all of rxjs ([87b7fe3f](https://github.com/kuuurt13/ng-block-ui/commit/87b7fe3f276ede0a22f7c269ea1c3c812fb86d06))
+* **ci:**  Update karma to use chrome for testing ([bd093576](https://github.com/kuuurt13/ng-block-ui/commit/bd093576835c8e75c8ab085440ea1d642dabcdea))
+*  Add npm badge ([6ab3f44f](https://github.com/kuuurt13/ng-block-ui/commit/6ab3f44fe926d37da61c6d9714bba9fad6285612))
+*  Added Travis CI support ([449f59b7](https://github.com/kuuurt13/ng-block-ui/commit/449f59b70a43608fc88c73a9182349dd07c04669))
+*  BlockUIService ([5e51b103](https://github.com/kuuurt13/ng-block-ui/commit/5e51b1030da265d974b8be10540db46bda4ae546))
+*  BlockUI decorator ([8aac744e](https://github.com/kuuurt13/ng-block-ui/commit/8aac744eef2b0efb6895abf43bbced9fdcb6eb56))
+*  Fix block-ui-content test by using innerText ([5c3a349d](https://github.com/kuuurt13/ng-block-ui/commit/5c3a349d24b638fc854ff441d0522e146a6c4e44))
+*  Add back AOT compile packages ([2a482db9](https://github.com/kuuurt13/ng-block-ui/commit/2a482db949a5f6c91fbe1f6a94ea34342f433b26))
+*  block-ui and block-ui-content components ([54f6e0f2](https://github.com/kuuurt13/ng-block-ui/commit/54f6e0f2155a8c062280d2a81763ef8c97900f98))
+*  add untracked test files ([e7d3da01](https://github.com/kuuurt13/ng-block-ui/commit/e7d3da01f15c82563533c37977c21673d646b3d5))
+*  Added BlockUIComponent Unit Tests ([87ac65d9](https://github.com/kuuurt13/ng-block-ui/commit/87ac65d97ff1abba665ea4ca979eb7b6b6d19c01))
+* **lib:**
+  *  Added systemjs support ([#8](https://github.com/kuuurt13/ng-block-ui/pull/8)) ([cfd3c65b](https://github.com/kuuurt13/ng-block-ui/commit/cfd3c65b14a45a62e91d352043853158a7055819))
+  *  Update package keywords & version ([58431880](https://github.com/kuuurt13/ng-block-ui/commit/58431880f1eb826976a16c11bf5e3416b341f289))
+  *  Capitalize BlockUI decorator ([086e37b3](https://github.com/kuuurt13/ng-block-ui/commit/086e37b3ce57d21585591e1e532441f1dd6a750b))
+* **misc:**  Update README ([8c83b88d](https://github.com/kuuurt13/ng-block-ui/commit/8c83b88dda33e356790fa54d8dd2cfb91a8e8bce))
+* **app:**
+  *  Update .gitignore ([db2fb0bd](https://github.com/kuuurt13/ng-block-ui/commit/db2fb0bde102d5c77dcab25e80a1fa8186f2d3f7))
+  *  Modify structure ([51b851a2](https://github.com/kuuurt13/ng-block-ui/commit/51b851a2878149093b15ffbfa9a670fc2a9cd76c))
+  *  :shipit: ([bbb04ce6](https://github.com/kuuurt13/ng-block-ui/commit/bbb04ce66aaded2a024d85dfb647cdf4cddd4775))
+
+##### Refactors
+
+* **BlockUI:**  Rewrite block queueing in more cohesive way ([cc9c2e6c](https://github.com/kuuurt13/ng-block-ui/commit/cc9c2e6c1c607f2e407a8e70dc502b612d294ea2))
+
+##### Tests
+
+* **BlockUIContentComponent:**  Add test coverage for non-delay ([#109](https://github.com/kuuurt13/ng-block-ui/pull/109)) ([20f785df](https://github.com/kuuurt13/ng-block-ui/commit/20f785df34ffb66b32349868624519c1b43a9caa))
+* **http:**  add tests for BlockUIHttpModule ([#38](https://github.com/kuuurt13/ng-block-ui/pull/38)) ([7cda94d3](https://github.com/kuuurt13/ng-block-ui/commit/7cda94d3251f26f0938c1c1c245a8399191c9e31))
+* **router:**  added prevent navigation tests ([4fbc50b9](https://github.com/kuuurt13/ng-block-ui/commit/4fbc50b95b19b3393a194709f5ae85cef6186579))
+* **module:**  added module settings tests ([0c97e065](https://github.com/kuuurt13/ng-block-ui/commit/0c97e065168be520e7f6ed705034aab3b3175096))
+* **all:**  fix BlockUIModule imports ([c8aad241](https://github.com/kuuurt13/ng-block-ui/commit/c8aad24135525589124af97f5cd4f5653845a3c4))
+* **tests:**  Added blockUI directive tests ([d7a3f79e](https://github.com/kuuurt13/ng-block-ui/commit/d7a3f79e6220363bdd1284e081031d3ad113fc12))
+
 #### 3.0.2 (2020-07-15)
 
 ##### Build System / Dependencies
